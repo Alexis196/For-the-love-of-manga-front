@@ -5,7 +5,7 @@ import DivFondo from '../../components/DivFondos/DivFondo'
 
 export default function LayoutMain() {
     return (
-    <div className='fondo2'>
+    <div className='fondo'>
         <Navbar/>
         <DivFondo/>
     </div>
