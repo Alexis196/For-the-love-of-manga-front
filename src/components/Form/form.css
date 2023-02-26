@@ -23,6 +23,8 @@ fieldset{
 input{
     border: none;
     background: #EBEBEB;
+    height: 1rem;
+    outline: none;
 }
 .icon{
     width: 16px;
@@ -49,6 +51,7 @@ input{
     border: none;
     border-radius: 10px;
     color: #EBEBEB;
+    cursor: pointer;
 }
 
 .btn-google{
@@ -60,6 +63,7 @@ input{
     color: #1F1F1F;
     border: 1px solid #1F1F1F;
     border-radius: 10px;
+    cursor: pointer;
 }
 legend{
     color: #F97316;
