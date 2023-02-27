@@ -1,0 +1,96 @@
+.card-aside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem auto .7rem;
+    width: 95%;
+    height: 200px;
+    background: linear-gradient(#FF5722, #F97316);
+    border-radius: 6px;
+    padding: 1rem 0 1rem 2rem;
+    gap: 1rem
+}
+
+.img-nami {
+    width: 223px;
+    height: 251px;
+    margin-top: -40px;
+}
+
+.img-luffy {
+    width: 159px;
+    height: 240px;
+    margin-top: -50px;
+}
+
+.img-card {
+    width: 100%;
+    margin-top: 1rem;
+    height: 32vh;
+    object-fit: fill;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50%;
+    bottom: 2.5rem;
+    color: #fff;
+}
+
+.text-one {
+    font-weight: 500;
+    font-size: 24px;
+    width: 109px;
+    height: 23px;
+}
+
+.manga {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    width: 37px;
+    height: 11px;
+}
+
+.description {
+    font-size: 14px;
+    width: 356px;
+    height: 65px;
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+    .card-aside {
+        display: none;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px){
+    .card-aside {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 931px){
+    .card-aside{
+        width: 760px;
+        height: 265px;
+        align-items: flex-start;
+    }
+    .text-card{
+        width: auto;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+    }
+    .description{
+        width: 100%;
+    }
+}
+
+@media (min-width: 932px) and (max-width: 1024px){
+    .card-aside{
+        width: 920px;
+        height: 265px;
+        align-items: flex-start;
+    }
+}

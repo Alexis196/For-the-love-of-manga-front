@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import LayoutHeader from './layouts/LayoutHeader/LayoutHeader';
+import Aside from './components/Aside/Aside';
 
 function App() {
   return (
-    <h1>Hola</h1>
+    <div>
+      <LayoutHeader className='header'/>
+      <Aside/>
+    </div>
   );
 }
 
