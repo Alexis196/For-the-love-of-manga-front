@@ -14,7 +14,6 @@ export default function Form() {
     let password = useRef()
     let cPassword = useRef()
     let notif = useRef()
-
     async function handleSubmit(event) {
         event.preventDefault()
         let data = {

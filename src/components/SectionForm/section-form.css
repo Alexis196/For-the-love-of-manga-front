@@ -58,6 +58,7 @@ h1 {
         width: 290px;
     }
 }
+}
 
 @media (min-width: 425px) and (max-width: 767px){
     .section-form {
@@ -67,4 +68,5 @@ h1 {
     h1{
         width: 400px;
     }
+
 }
