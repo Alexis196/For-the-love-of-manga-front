@@ -7,7 +7,7 @@
     color: #ff0000;
 }
 .h1 {
-    width: 711px;
+    width: auto;
     height: 61px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -15,7 +15,8 @@
     font-size: 64px;
     line-height: 95.19%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     color: #FFFFFF;
 }
 
