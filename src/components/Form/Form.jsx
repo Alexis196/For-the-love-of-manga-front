@@ -13,7 +13,7 @@ export default function Form() {
     let email = useRef()
     let password = useRef()
     let cPassword = useRef()
-    let accept = useRef()
+    let notif = useRef()
 
     async function handleSubmit(event) {
         event.preventDefault()
@@ -22,7 +22,7 @@ export default function Form() {
             [email.current.name]: email.current.value,
             [password.current.name]: password.current.value,
             [cPassword.current.name]: cPassword.current.value,
-            [accept.current.name] : accept.current.checked
+            [notif.current.name] : notif.current.checked
         }
         console.log(data)
         let url = 'http://localhost:8080/users'
@@ -69,8 +69,8 @@ export default function Form() {
                 {lock}
             </fieldset>
             <div className='check'>
-                <input className='accept-ch' type="checkbox" id="accept" name='accept' ref={accept} />
-                <label className='accept' htmlFor="accept">Send notification to my email</label>
+                <input className='accept-ch' type="checkbox" id="notif" name='notif' ref={notif} />
+                <label className='accept' htmlFor="notif">Send notification to my email</label>
             </div>
             <button type="submit" className='btn-sign' >Sign up</button>
             <button className='btn-google' > {google} Sign in with Google</button>
